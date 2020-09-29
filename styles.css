@@ -78,6 +78,11 @@ color: #333;
 text-decoration: none;
 line-height: 1.8;
 }
-#welcome {border: solid;
-margin-top: 15px;
+#welcome {
+  border: solid;
+  margin-top: 15px;
+  transition: opacity 1s ease;
+}
+.hide{
+  opacity: 0;
 }
