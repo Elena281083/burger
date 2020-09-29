@@ -9,8 +9,9 @@ function ready(){
     console.log('test');
     this.classList.toggle('burger_cross'); 
     menu[0].classList.toggle('menu_show'); 
-link_main[0].onclick= function () {
-  consol.log ('welcome')
-  }
+    link_main.onclick = function (){
+link_main[0].onclick.toggle('welcome');
+}
+  
 
 }
